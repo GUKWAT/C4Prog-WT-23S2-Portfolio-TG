@@ -1,0 +1,49 @@
+header {
+    padding: 20px;
+    background-color: black;
+    color: white;
+    text-align: left;
+   
+
+}
+
+main {
+    padding: 20px;
+    background-color: white;
+    
+}
+
+footer {
+    padding: 10px;
+    background-color: black;
+    color: white;
+    text-align: center;
+    
+}
+
+
+@media screen and (max-width: 768px) {
+    header {
+        padding: 10px;
+        font-size: 18px;
+    
+    }
+
+
+    main {
+        padding: 10px;
+        font-size: 16px;
+    }
+
+    footer {
+        padding: 5px;
+        font-size: 14px;
+    }
+    nav{
+        display: none;
+    }
+    aside{
+        display: none;
+
+    }
+}
