@@ -1,16 +1,16 @@
 
     header {
-        background-color: black;
+        background-color: #0C102E;
         color: white;
         text-align: left;
         font-size: 8px;
-        border: 1px solid black;
+        border: 1px solid #0C102E;
     }
     
     nav {
-        background-color: black;
+        background-color: #14204A;
         color: white;
-        border: 1px solid black;
+        border: 1px solid #14204A;
         
         
     }
@@ -19,19 +19,21 @@
         list-style-type: none;
         margin: 0;
         padding: 0;
-        border: 1px solid black;
+        border: 1px solid #14204A;
+        
     }
     
     li {
         display: inline;
+        color: white;
     }
     
     main {
         padding: 20px;
-        background-color: white;
+        background-color: #1B3366;
         width: 80%;
         text-align: center;
-        border: 1px solid black;
+        border: 1px solid #1B3366;
         display: grid;
         grid-template-columns: repeat(3, 1fr);
         grid-template-rows: auto auto;
@@ -62,7 +64,7 @@
         border: 1px solid black;
         padding: 20px;
         margin: 20px;
-        background-color: grey;
+        background-color: #234B83;
         grid-column: span 1;
         
     }
@@ -73,7 +75,7 @@
         justify-self: end;
         grid-column: 3;
         grid-row: 1;
-        background-color: grey;
+        background-color: #2A669F;
         padding: 20px;
         display: block;
     }
@@ -96,7 +98,7 @@
     }
 
     header {
-        background-color: black;
+        background-color: #6366F1;
         color: white;
         text-align: left;
         font-size: 16px; 
@@ -123,7 +125,7 @@
         border: 1px solid black;
         padding: 20px;
         margin: 20px;
-        background-color: grey;
+        background-color: #888BF4;
         max-width: 100%;
 
 
