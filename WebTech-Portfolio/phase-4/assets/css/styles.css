@@ -1,0 +1,158 @@
+
+    header {
+        background-color: #0C102E;
+        color: white;
+        text-align: left;
+        font-size: 8px;
+        border: 1px solid #0C102E;
+    }
+    
+    nav {
+        background-color: #14204A;
+        color: white;
+        border: 1px solid #14204A;
+        
+        
+    }
+    
+    ul {
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+        border: 1px solid #14204A;
+        
+    }
+    
+    li {
+        display: inline;
+        color: white;
+    }
+    
+    main {
+        padding: 20px;
+        background-color: #1B3366;
+        width: 80%;
+        text-align: center;
+        border: 1px solid #1B3366;
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        grid-template-rows: auto auto;
+        grid-gap: 10px;
+        margin: auto;
+    }
+    
+    
+    footer {
+        
+        bottom: 0;
+        left: 0;
+        width: 100%; 
+        background: black;
+        color: white;
+        text-align: center;
+        
+    }
+    
+    section {
+    
+        border: 1px solid black;
+        padding: 20px;
+    
+    }
+    article {
+        font-size: 16px;
+        border: 1px solid black;
+        padding: 20px;
+        margin: 20px;
+        background-color: #234B83;
+        grid-column: span 1;
+        
+    }
+    
+    aside {
+    
+        border: 1px solid black;
+        justify-self: end;
+        grid-column: 3;
+        grid-row: 1;
+        background-color: #2A669F;
+        padding: 20px;
+        display: block;
+    }
+    
+    aside > section {
+        margin-bottom: 20px;
+        border: 1px solid black;
+        padding: 10px;
+    }
+
+    img {
+
+
+        width: 100%;
+    }
+    
+    
+
+
+@media screen and (max-width: 767px) {
+
+    nav {
+        display: none;
+
+
+    }
+
+    header {
+        background-color: #6366F1;
+        color: white;
+        text-align: left;
+        font-size: 16px; 
+        border:black;
+        position: fixed;
+        width: 100%;
+      
+
+    }
+
+    main {
+        padding: 20px;
+        background-color: white;
+        text-align: center;
+        margin: auto;
+        border: 1px solid black;
+        width: 100%;
+        grid-template-columns: 1fr;
+        
+    }
+
+    article{
+        font-size: 0.9rem; 
+        border: 1px solid black;
+        padding: 20px;
+        margin: 20px;
+        background-color: #888BF4;
+        max-width: 100%;
+
+
+
+
+    }
+   
+
+    aside {
+
+
+        display: none;
+    }
+
+
+
+    footer {
+        
+        background: black;
+        color: white;
+        text-align: center;
+    }
+}
+
