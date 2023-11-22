@@ -11,15 +11,15 @@
         background-color: black;
         color: white;
         border: 1px solid black;
-        
-        
     }
+
     
     ul {
         list-style-type: none;
         margin: 0;
         padding: 0;
-        border: 1px solid black;
+        
+        
     }
     
     li {
@@ -89,16 +89,38 @@
 
 @media screen and (max-width: 767px) {
 
-    nav {
-        display: none;
+   .hamburger-menu{
+    display: block;
+    cursor:pointer;
+    float:right; 
+    position: fixed;
+    top: 20px;
+    right: 20px;
 
+
+   }
+
+   .bar{
+    width: 25px;
+    height: 3px;
+    background-color: white;
+    margin-bottom:5px ;
+
+   }
+
+   
+    nav{
+        display: none;
+      
+    }
+    header.h1{
+        text-align: left;
 
     }
 
     header {
         background-color: black;
         color: white;
-        text-align: left;
         font-size: 16px; 
         border:black;
         position: fixed;
