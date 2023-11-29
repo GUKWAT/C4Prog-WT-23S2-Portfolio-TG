@@ -87,21 +87,32 @@
     }
 
     img {
-
-
         width: 100%;
     }
     
     
 
 
-@media screen and (max-width: 767px) {
-
-    nav {
-        display: none;
-
-
-    }
+    @media screen and (max-width: 767px) {
+        nav ul {
+            display: none;
+        }
+    
+        .ham {
+            display: block;
+            cursor: pointer;
+            float: right;
+            margin-right: 40px;
+            
+        }
+        .bar {
+            display: block;
+            width: 25px;
+            height: 3px;
+            background-color: #333; 
+            margin: 6px 0;
+        }
+    
 
     header {
         background-color: #6366F1;
@@ -111,7 +122,6 @@
         border:black;
         position: fixed;
         width: 100%;
-      
 
     }
 
@@ -133,9 +143,6 @@
         margin: 20px;
         background-color: #888BF4;
         max-width: 100%;
-
-
-
 
     }
    
